@@ -1,0 +1,10 @@
+[project]
+name = "surplusconnect-ai-backend"
+version = "1.0.0"
+description = "SurplusConnect AI FastAPI backend with MongoDB Atlas, Gemini API, LangGraph, Scikit-learn, Google Maps Routes API, and PayPal Sandbox."
+requires-python = ">=3.11"
+
+[tool.pytest.ini_options]
+asyncio_mode = "auto"
+testpaths = ["tests"]
+
